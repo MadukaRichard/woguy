@@ -131,6 +131,10 @@ body {
   font-weight: 700; font-style: italic; color: var(--cream);
   text-decoration: none; transition: color 0.2s;
 }
+/* Ensure nav items are white in dark mode */
+.theme-dark .nav-mobile-menu a {
+  color: #fff;
+}
 .nav-mobile-menu a:hover { color: var(--gold); }
 .nav-mobile-theme {
   background: rgba(232,168,56,0.12); border: 1px solid rgba(232,168,56,0.3);
